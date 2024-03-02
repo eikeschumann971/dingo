@@ -9,7 +9,7 @@ endif()
 include(cmake/md.cmake)
 include(cmake/sanitizers.cmake)
 
-set(CMAKE_CXX_STANDARD 17 CACHE STRING "c++ standard")
+set(CMAKE_CXX_STANDARD 20 CACHE STRING "c++ standard")
 set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
